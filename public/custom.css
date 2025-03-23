@@ -1,0 +1,20 @@
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(210, 242, 240, 0.849); }
+
+
+    .table td, .table th {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #101111; }
+
+
+        table.table {
+            text-align: center; /* Center align all cells */
+        }
+        
+        table.table th, 
+        table.table td {
+            text-align: center; /* Specifically align headers and data cells */
+            vertical-align: middle; /* Center align content vertically */
+        }
+        
